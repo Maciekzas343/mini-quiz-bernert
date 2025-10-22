@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Quiz – Autor Maciej Bernert"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROZPOCZNIJ QUIZ"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pytanie pojawi się tutaj"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/answerAButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A)"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/answerBButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B)"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/answerCButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C)"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik: 0"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ QUIZ" />
+</LinearLayout>
